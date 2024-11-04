@@ -1,0 +1,126 @@
+{
+    "parameters": {
+        "Waveform": {
+            "initial_value": 10,
+            "min": 0,
+            "max": 15,
+            "mutable": true,
+            "options": ["off","saw","2","3"]
+            "adjust": "cc.10"
+        },
+        "Waveform.PW": {
+            "initial_value": 10,
+            "min": 16,
+            "max": 127,
+            "mutable": true,
+            "adjust": "cc.10"
+        },
+        "Cutoff": {
+            "initial_value": 80,
+            "min": 0,
+            "max": 127,
+            "mutable": true,
+            "adjust": "cc.74"
+        },
+        "Resonance": {
+            "initial_value": 60,
+            "min": 0,
+            "max": 127,
+            "mutable": true,
+            "adjust": "cc.71"
+        },
+        "Attack": {
+            "initial_value": 10,
+            "min": 0,
+            "max": 127,
+            "mutable": false,
+            "adjust": "cc.73"
+        },
+        "Decay": {
+            "initial_value": 40,
+            "min": 0,
+            "max": 127,
+            "mutable": false,
+            "adjust": "cc.75"
+        },
+        "Osc 1 Frequency": {
+            "initial_value": 64,
+            "min": 0,
+            "max": 127,
+            "mutable": true,
+            "adjust": "cc.20",
+            "ignore": true
+        },
+        "Osc 1 Freq Fine": {
+            "initial_value": 64,
+            "min": 0,
+            "max": 127,
+            "mutable": true,
+            "adjust": "cc.21",
+            "ignore": true
+        },
+        "Osc 1 Shape": {
+            "initial_value": 64,
+            "min": 0,
+            "max": 127,
+            "mutable": true,
+            "adjust": "cc.22"
+        },
+        "Glide 1": {
+            "initial_value": 8,
+            "min": 0,
+            "max": 127,
+            "mutable": true,
+            "adjust": "cc.23"
+        },
+        "Osc 2 Frequency": {
+            "initial_value": 64,
+            "min": 0,
+            "max": 127,
+            "mutable": true,
+            "adjust": "cc.24",
+            "ignore": true
+        },
+        "Osc 2 Freq Fine": {
+            "initial_value": 64,
+            "min": 0,
+            "max": 127,
+            "mutable": true,
+            "adjust": "cc.25",
+            "ignore": true
+        },
+        "Osc 2 Shape": {
+            "initial_value": 64,
+            "min": 0,
+            "max": 127,
+            "mutable": true,
+            "adjust": "cc.26"
+        },
+        "Glide 2": {
+            "initial_value": 8,
+            "min": 0,
+            "max": 127,
+            "mutable": true,
+            "adjust": "cc.27"
+        },
+        "Sub Oscillator 1": {
+            "initial_value": 0,
+            "min": 0,
+            "max": 127,
+            "mutable": true,
+            "adjust": "cc.30"
+        },
+        "Sub Oscillator 2": {
+            "initial_value": 0,
+            "min": 0,
+            "max": 127,
+            "mutable": true,
+            "adjust": "cc.31"
+        }
+    },
+    "mutation_settings": {
+        "mutation_probability": 0.1,
+        "mutation_intensity": 10
+    },
+    "feedback_log": []
+}
