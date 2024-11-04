@@ -1,122 +1,149 @@
 {
     "parameters": {
-        "Waveform": {
-            "initial_value": 10,
-            "min": 0,
-            "max": 15,
-            "mutable": true,
-            "options": ["off","saw","2","3"],
-            "adjust": "cc.10"
-        },
-        "Waveform.PW": {
-            "initial_value": 10,
-            "min": 16,
-            "max": 127,
-            "mutable": true,
-            "adjust": "cc.10"
-        },
-        "Cutoff": {
-            "initial_value": 80,
-            "min": 0,
-            "max": 127,
-            "mutable": true,
-            "adjust": "cc.74"
-        },
-        "Resonance": {
-            "initial_value": 60,
-            "min": 0,
-            "max": 127,
-            "mutable": true,
-            "adjust": "cc.71"
-        },
-        "Attack": {
-            "initial_value": 10,
-            "min": 0,
-            "max": 127,
-            "mutable": false,
-            "adjust": "cc.73"
-        },
-        "Decay": {
-            "initial_value": 40,
-            "min": 0,
-            "max": 127,
-            "mutable": false,
-            "adjust": "cc.75"
-        },
         "Osc 1 Frequency": {
             "initial_value": 64,
-            "min": 0,
-            "max": 127,
             "mutable": true,
             "adjust": "cc.20",
             "ignore": true
         },
         "Osc 1 Freq Fine": {
             "initial_value": 64,
-            "min": 0,
-            "max": 127,
             "mutable": true,
             "adjust": "cc.21",
             "ignore": true
         },
         "Osc 1 Shape": {
-            "initial_value": 64,
+            "initial_value": 1,
+            "options": ["Off", "Saw","Tri","Saw/tri"],
             "min": 0,
-            "max": 127,
+            "max": 3,
             "mutable": true,
             "adjust": "cc.22"
         },
+        "Osc 1 Shape PW": {
+            "min": 4,
+            "max": 103,
+            "mutable": true,
+            "adjust": "cc.22",
+            "weight": 0.25
+        },
         "Glide 1": {
             "initial_value": 8,
-            "min": 0,
-            "max": 127,
             "mutable": true,
-            "adjust": "cc.23"
+            "adjust": "cc.23",
+            "weight": 0.25
         },
         "Osc 2 Frequency": {
-            "initial_value": 64,
-            "min": 0,
-            "max": 127,
+            "initial_value": 0,
             "mutable": true,
             "adjust": "cc.24",
             "ignore": true
         },
         "Osc 2 Freq Fine": {
-            "initial_value": 64,
-            "min": 0,
-            "max": 127,
+            "initial_value": 0,
             "mutable": true,
             "adjust": "cc.25",
             "ignore": true
         },
         "Osc 2 Shape": {
             "initial_value": 64,
-            "min": 0,
-            "max": 127,
             "mutable": true,
             "adjust": "cc.26"
         },
         "Glide 2": {
             "initial_value": 8,
-            "min": 0,
-            "max": 127,
             "mutable": true,
-            "adjust": "cc.27"
+            "adjust": "cc.27",
+            "weight": 0.25
         },
         "Sub Oscillator 1": {
             "initial_value": 0,
-            "min": 0,
-            "max": 127,
             "mutable": true,
             "adjust": "cc.30"
         },
         "Sub Oscillator 2": {
             "initial_value": 0,
-            "min": 0,
-            "max": 127,
             "mutable": true,
             "adjust": "cc.31"
+        },
+        "Osc Mix": {
+            "initial_value": 64,
+            "mutable": true,
+            "adjust": "cc.28"
+        },
+        "Noise Level": {
+            "mutable": true,
+            "adjust": "cc.29"
+        },
+        "Feedback Amount": {
+            "mutable": true,
+            "adjust": "cc.52"
+        },
+        "Feedback Gain": {
+            "mutable": true,
+            "adjust": "cc.53"
+        },
+
+        Filter Key Amt
+104
+Filter Audio Mod
+105
+Filter Env Amt
+106
+Filter Env Vel Amt
+107
+Filter Delay
+108
+Filter Attack
+109
+Filter Decay
+110
+Filter Sustain
+111
+Filter Release
+112
+
+
+        Pan Spread
+114
+Amp Env Amt
+115
+Amp Velocity Amt
+116
+Amp Delay
+117
+Amp Attack
+118
+        "Amp Decay": {
+            "mutable": true,
+            "adjust": "cc.119"
+        },
+        "Amp Sustain": {
+            "mutable": true,
+            "adjust": "cc.75"
+        },
+        "Amp Release": {
+            "mutable": true,
+            "adjust": "cc.76"
         }
+        /*
+            Env 3 Destination
+            85
+            Env 3 Amt
+            86
+            Env 3 Velocity Amt
+            87
+            Env 3 Delay
+            88
+            Env 3 Attack
+            89
+            Env 3 Decay
+            90
+            Env 3 Sustain
+            77
+            Env 3 Release
+            78
+        */
     },
     "mutation_settings": {
         "mutation_probability": 0.1,

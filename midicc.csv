@@ -1,0 +1,42 @@
+Parameter,CC
+Osc 1 Frequency, 20
+Osc 1 Freq Fine,21
+Osc 1 Shape,22
+Glide 1,23
+Osc 2 Frequency,24
+Osc 2 Freq Fine,25
+Osc 2 Shape,26
+Glide 2,27
+Sub Oscillator 1,30
+Sub Oscillator 2,31
+Osc Mix,28
+Noise Level,29
+Feedback Amount,52
+Feedback Gain,53
+Filter Frequency,102
+Resonance,103
+Filter Key Amt,104
+Filter Audio Mod,105
+Filter Env Amt,106
+Filter Env Vel Amt,107
+Filter Delay,108
+Filter Attack,109
+Filter Decay,110
+Filter Sustain,111
+Filter Release,112
+Pan Spread,114
+Amp Env Amt,115
+Amp Velocity Amt,116
+Amp Delay,117
+Amp Attack,118
+Amp Decay,119
+Amp Sustain,75
+Amp Release,76
+Env 3 Destination,85
+Env 3 Amt,86
+Env 3 Velocity Amt,87
+Env 3 Delay,88
+Env 3 Attack,89
+Env 3 Decay,90
+Env 3 Sustain,77
+Env 3 Release,78
