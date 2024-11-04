@@ -5,7 +5,7 @@
             "min": 0,
             "max": 15,
             "mutable": true,
-            "options": ["off","saw","2","3"]
+            "options": ["off","saw","2","3"],
             "adjust": "cc.10"
         },
         "Waveform.PW": {
